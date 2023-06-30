@@ -2,10 +2,12 @@
 
 import React from "react";
 import Input from "./Input";
+import Center from "../Center/Center";
 
 export default {
-  title: "Input",
+  title: "Form/Input",
   component: Input,
+  decorators: [(story) => <Center>{story()}</Center>],
 };
 
 export const Small = () => <Input size='small' placeholder='Small Size' />;
