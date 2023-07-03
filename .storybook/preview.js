@@ -2,7 +2,7 @@
  * @format
  * @type { import('@storybook/react').Preview }
  */
-
+ 
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
@@ -20,5 +20,4 @@ const preview = {
     },
   },
 };
-
-export default preview;
+ 
